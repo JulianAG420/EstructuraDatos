@@ -8,6 +8,20 @@ package TrabajoClase;
  *
  * @author yulien
  */
-public class queue {
+public class queue<T> {
+    private node<T> head;
+    private node<T> tail;
+    
+    public void enqueue (T value){
+        node<T> newNode = new node<T>(value);
+        if (head==null){
+            head=newNode;
+            tail=newNode;
+            
+        }else {
+            tail.setNext(newNode);
+            tail=newNode;
+        }
+    }
     
 }
