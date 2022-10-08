@@ -30,8 +30,27 @@ public class clasemain {
 //                      System.out.println(Pila.pop());
 //                      System.out.println(Pila.pop());
 
-
-//ejercicio
+//        -------------Colas----------------
+//queue<Integer> Cola = new queue<Integer>();
+//        Cola.enqueue(1);
+//        Cola.enqueue(2);
+//        Cola.enqueue(4);
+//        System.out.println(Cola.dequeue());
+//        System.out.println(Cola.dequeue().getValue());
+        queue<Integer> prueba = new queue<Integer>();
+        for (int i = 0; i < 101; i++) {
+            prueba.enqueue(i);
+        }
+        int temp = prueba.findByIndex(23).getValue();
+        queue<Integer> prueba2 = new queue<Integer>();
+        for (int i = 0; i<100; i++){
+            prueba2.enqueue(i);
+        }
+        
+        
+        
+        
+//           ------------ejercicio-----------
 //Scanner sc = new Scanner(System.in);
 //int buscar = Integer.parseInt(sc.nextLine());
 //int popTemp;
@@ -55,4 +74,5 @@ public class clasemain {
 //               }
 //           }
 //    }
+    }
 }
