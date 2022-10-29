@@ -37,15 +37,15 @@ public class clasemain {
 //        Cola.enqueue(4);
 //        System.out.println(Cola.dequeue());
 //        System.out.println(Cola.dequeue().getValue());
-        queue<Integer> prueba = new queue<Integer>();
-        for (int i = 0; i < 101; i++) {
-            prueba.enqueue(i);
-        }
-        int temp = prueba.findByIndex(23).getValue();
-        queue<Integer> prueba2 = new queue<Integer>();
-        for (int i = 0; i<100; i++){
-            prueba2.enqueue(i);
-        }
+//        queue<Integer> prueba = new queue<Integer>();
+//        for (int i = 0; i < 101; i++) {
+//            prueba.enqueue(i);
+//        }
+//        int temp = prueba.findByIndex(23).getValue();
+//        queue<Integer> prueba2 = new queue<Integer>();
+//        for (int i = 0; i<100; i++){
+//            prueba2.enqueue(i);
+//        }
         
        
         
@@ -75,5 +75,23 @@ public class clasemain {
 //               }
 //           }
 //    }
+
+
+//----------------------------------------Listas-----------------------//
+//list Lista = new list();
+//Lista.insertar(new Persona(1,"P"));
+//Lista.insertar(new Persona(3,"P"));
+//Lista.insertar(new Persona(2,"P"));
+//Lista.insertar(new Persona(5,"P"));
+//Lista.insertar(new Persona(4,"P"));
+//
+//Lista.imprimirLista();
+
+ListaSimpleCircular Lista1 = new ListaSimpleCircular();
+Lista1.insertar(new Persona(1, "P"));
+Lista1.insertar(new Persona(6, "P"));
+Lista1.insertar(new Persona(4, "P"));
+
+Lista1.imprimirLista();
     }
 }
