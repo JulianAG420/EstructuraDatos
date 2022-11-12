@@ -42,6 +42,24 @@ public class ListaSimpleCircular {
             aux.setNext(nuevoNodo);
         }
     }
+         public boolean existe (int id){
+        boolean esta= false;
+        return esta;
+        
+    }
+    
+    public void modifica (Persona p){
+        
+    }
+    
+    public void elimina (int id){
+        
+    }
+    
+    public Persona extrae(int id){
+        return null;
+    }
+    
 
     public void imprimirLista() {
         node<Persona> aux = head;
