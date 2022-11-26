@@ -89,23 +89,33 @@ public class clasemain {
 
 
 //----------------------------------------Listas Semana 9-----------------------//
-ListaDobleCircular Lista1 = new ListaDobleCircular();
-Persona ab;
-Lista1.insertar(new Persona(1, "Roberto"));
-Lista1.insertar(new Persona(2, "Jorge"));
-Lista1.insertar(new Persona(3, "Julian"));
-Lista1.insertar(new Persona(4, "axel"));
-Lista1.existe(5);
-Lista1.imprimirLista();
-Lista1.modifica(new Persona(4, "Arnaldo"));
-Lista1.imprimirLista();
-Lista1.elimina(2);
-Lista1.imprimirLista();
-ab=Lista1.extrae(1);
-Lista1.imprimirLista();
-        System.err.println("La extraccion es: "+ab.getNombre());
+//ListaDobleCircular Lista1 = new ListaDobleCircular();
+//Persona ab;
+//Lista1.insertar(new Persona(1, "Roberto"));
+//Lista1.insertar(new Persona(2, "Jorge"));
+//Lista1.insertar(new Persona(3, "Julian"));
+//Lista1.insertar(new Persona(4, "axel"));
+//Lista1.existe(5);
+//Lista1.imprimirLista();
+//Lista1.modifica(new Persona(4, "Arnaldo"));
+//Lista1.imprimirLista();
+//Lista1.elimina(2);
+//Lista1.imprimirLista();
+//ab=Lista1.extrae(1);
+//Lista1.imprimirLista();
+//        System.err.println("La extraccion es: "+ab.getNombre());
 
 
-
+//----------------------------------------Arboles Semana11-----------------------//
+ArbolBinario Arbol = new ArbolBinario();
+Arbol.inserta(50); 
+Arbol.inserta(20);
+Arbol.inserta(15);
+Arbol.inserta(30);
+Arbol.inserta(80);
+Arbol.inserta(60);
+Arbol.inserta(75);
+Arbol.inOrden();
+Arbol.retornarAltura();
 }
 }
